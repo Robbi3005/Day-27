@@ -1,0 +1,24 @@
+{
+    "nama" : "robbi",
+    "alamat" : "jl.jalan",
+    "usia" : 17
+};
+
+// edit data
+// misal kita ganti nama alamatnya
+// yang dikirim, harus 1 data object
+
+{
+    "nama" : "robbi",
+    "alamat" : "jl.jalan ke Surabaya",
+    "usia" : "17"
+};
+
+// tapi kalo patch
+// yang di kiirm hanya bagian yang di ganti saja
+// yakni alamat
+
+{
+    "alamat" : "jl.jalan ke Surabaya",
+};
+
