@@ -8,3 +8,10 @@
 // di git add.
 // git commit -m "isi"
 // git push -u origin main
+
+// note
+
+// git remote -v > untuk melihat sudah tersambung ke repo yang mana ?
+// git checkout -b (nama branch baru)
+// git branch (nama branch) > untuk memilih brach mana
+// git branch > untuk melihat ada branch apa saja
