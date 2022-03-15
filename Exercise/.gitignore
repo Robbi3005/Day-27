@@ -1,0 +1,8 @@
+// agar folder yang dikecualikan di bawah ini tidak ikut ter-uplaod dalam git
+// karena folder ini memiliki size data yang luamyan besar
+// akan memperlama proses push / pull
+// sebelum di pull, harap install package dulu
+
+node_modules
+
+package-lock.json
