@@ -44,4 +44,4 @@ for (let i=0; i<data.length; i++) {
 
 console.log(data);
 
-// fs.writeFileSync('result.json', JSON.stringify(data, null, 2));
+fs.writeFileSync('result.json', JSON.stringify(data, null, 2));
