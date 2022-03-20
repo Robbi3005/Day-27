@@ -1,10 +1,10 @@
 // menambahkan kata is_student = true"
 
-const fs = require ('fs');
+const fs = require('fs');
 
 let data = JSON.parse(fs.readFileSync('student.json', "utf-8"))
 
-console.log (typeof data); // object
+console.log(typeof data); // object
 
 //---------------------------------------------------------------
 
@@ -12,13 +12,46 @@ console.log (typeof data); // object
 
 // data[0].is_student = true;
 
+// output
+// [
+//   { name: 'Arriza', is_student: 
+//   true },
+//     { name: 'Delvin' },
+//     { name: 'Hanif' },
+//     { name: 'Rifaldi' }
+//  ]
+
+//---------------------------------------------------------------
+
+// data.is_student = true;
+
+// output
+// [
+//     { name: 'Arriza' }, 
+//     { name: 'Delvin' }, 
+//     { name: 'Hanif' },  
+//     { name: 'Rifaldi' },
+//     is_student: true    
+// ]
+
+//---------------------------------------------------------------
+
+// data.push({'is_student': true});
+// [
+//     { name: 'Arriza' }, 
+//     { name: 'Delvin' }, 
+//     { name: 'Hanif' },  
+//     { name: 'Rifaldi' },
+//     { is_student: true }
+// ]
+
 //---------------------------------------------------------------
 
 // menggunakan looping
 
-for (let i=0; i<data.length; i++) {
-    data[i].is_student = true
-}
+// for (let i=0; i<data.length; i++) {
+//     data[i].is_student = true
+// }
 
 //----------------------------------------------------------------
 
