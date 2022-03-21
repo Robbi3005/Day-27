@@ -39,6 +39,7 @@ const fs = require('fs');
 //-----------------------------------------------------------------------
 
 // data.push({'name': 'Rifaldi'});
+
 // error, karena file sebelunya masih string, harus di jadikan object dulu
 
 //-----------------------------------------------------------------------
