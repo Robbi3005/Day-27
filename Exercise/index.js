@@ -14,6 +14,7 @@ const fs = require('fs');
 //------------------------------------------------------------------------
 
 // utf-8 adalah encoding dari optional bahasa javascript
+
 // const data1 = fs.readFileSync('student.json', 'utf-8');
 
 // console.log(data1);
