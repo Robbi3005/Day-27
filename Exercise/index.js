@@ -15,7 +15,7 @@ const fs = require('fs');
 
 // utf-8 adalah encoding dari optional bahasa javascript
 
-// const data1 = fs.readFileSync('student.json', 'utf-8');
+const data1 = fs.readFileSync('student.json', 'utf-8');
 
 // console.log(data1);
 // console.log('-------------------\n');
@@ -40,7 +40,7 @@ const fs = require('fs');
 
 //---PUSH---
 
-// data.push({'name': 'Rifaldi'});
+data.push({'name': 'Rifaldi'});
 
 // error, karena file sebelunya masih string, harus di jadikan object dulu
 
