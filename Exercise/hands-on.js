@@ -48,10 +48,10 @@ console.log('-----------------\n');
 // // output
 // // {
 // //     id: 3,
-// //         title: 'third todo',
-// //             description: 'go for a run',
-// //                 completed: false,
-// //                     date_completed: null
+// //     title: 'third todo',
+// //     description: 'go for a run',
+// //     completed: false,
+// //     date_completed: null
 // // }
 
 //-------------------------------------------------------------------------
